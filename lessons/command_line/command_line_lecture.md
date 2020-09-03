@@ -69,7 +69,7 @@ This "changes directory" and makes the named directory our new working
 directory. 
 
 > Question: How could we make sure that we moved?
-> We would type PWD into the command line, which would give us the precise location.
+>> We would type PWD into the command line, which would give us the precise location.
 
 Let's get a few special things out of the way as well for command line. When
 we talk about folders, we don't always want to move "into" the next folder
@@ -146,7 +146,7 @@ Nice.
 
 > Let's save the output of the `curl` command to a file called `data.txt`. How
 would we do that?
-> We would attach "> data.txt" to the end of the command, signifying that the output should be stored as a file in the directory that the command line is operating in. The command would be written as such: curl https://archive.ics.uci.edu/ml/machine-learning-databases/auto-mpg/auto-mpg.data > data.txt
+>> We would attach "> data.txt" to the end of the command, signifying that the output should be stored as a file in the directory that the command line is operating in. The command would be written as such: curl https://archive.ics.uci.edu/ml/machine-learning-databases/auto-mpg/auto-mpg.data > data.txt
 
 Now that we have the data file, let's learn how to manipulate files.
 
@@ -194,7 +194,7 @@ ls -lh
 ```
 
 > What changed?
-> the column listing bytes abbreviated larger files into kilobytes.
+>> the column listing bytes abbreviated larger files into kilobytes.
 
 If instead copying we just want to change the name of a file, we can do:
 
